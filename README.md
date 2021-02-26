@@ -15,12 +15,12 @@ about - to know about me
 #### The Hard Way
 
 ```sh
+cd rename
+sudo pip3 install virtualenv
 virtualenv -p python3 VENV
 . ./VENV/bin/activate
 pip3 install -r requirements.txt
-cp sample_config.py config.py
---- EDIT config.py values appropriately ---
-python bot.py
+nohup python3 rename.py
 ```
 
 #### LICENSE
