@@ -6,26 +6,25 @@ class Translation(object):
 
 I Can rename ✍ with custom thumbnail and upload as video/file
 
-Type /help for more details.
-Type /donate for donation."""
+Type /help for more details."""
     DOWNLOAD_START_VIDEO = "Downloading Video to my server.....📥"
     DOWNLOAD_START = "Downloading File to my server.....📥"
     UPLOAD_START_VIDEO = "Uploading as video.....📤"
     UPLOAD_START = "Uploading as File.....📤"
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations.I can't do anything for that 🤷‍♂️."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "✅ Done"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
-    SAVED_CUSTOM_THUMB_NAIL = "Custom File thumbnail saved ✅️ . This image will be deleted with in 24hr"
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry.\nBut, I cannot upload files greater than 1.95GB due to Telegram API limitations.I can't do anything for that 🤷‍♂️."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "📄 Done"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_VIDEO = "🎞 Done"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "📥 {} seconds.\n📤 {} seconds."
+    SAVED_CUSTOM_THUMB_NAIL = "Custom File thumbnail saved ✅️ .\nThis image will be deleted with in 24hr🗑"
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
-    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
+    SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully. ✅"
+    SAVED_RECVD_DOC_FILE_VIDEO = "Video Downloaded Successfully. ✅"
     CUSTOM_CAPTION_UL_FILE = ""
-    NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
+    NO_CUSTOM_THUMB_NAIL_FOUND = "❓ No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     HELP_USER = """Hai <b><i>{}</i></b>, 
 
-I am Renamer bot ✍ by <a href='https://t.me/{}'>My Owner 👨‍🏫</a>
-    
 1. Send Me A Thumbnail.
 
 2. Send me the file to be Renamed.
