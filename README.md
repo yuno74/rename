@@ -27,3 +27,4 @@ nohup python3 rename.py
 #### LICENSE
 - GPLv3
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yuno74/rename)</br>
